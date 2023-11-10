@@ -1,19 +1,16 @@
-
-import express, { Application, Request ,Response } from 'express'
-const app:Application = express()
+import express, { Application, Request, Response } from 'express'
+const app: Application = express()
 import cors from 'cors'
 
-// middleware 
+// middleware
 app.use(cors())
 
-// perser 
+// perser
 app.use(express.json())
-app.use(express.urlencoded({extended: true}))
+app.use(express.urlencoded({ extended: true }))
 
-
-
-app.get('/', (req: Request, res: Response) => {
+app.get('/', (req: Request, res: any) => {
   res.send('Server is running successfully!')
 })
 
-export default app 
+export default app
