@@ -3,6 +3,13 @@ import { IUser } from './users.interface'
 import { User } from './users.model'
 import { generateUserId } from './users.utils'
 
+// get all user
+export const getAllUsersDB = async () => {
+  const users = await User.find({})
+  return users
+}
+
+// create user
 export const createUserDB = async (user: IUser): Promise<IUser | null> => {
   /**
    * auto generated incremental id
