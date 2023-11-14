@@ -1,7 +1,8 @@
-import express, { Application, Request, Response } from 'express'
-const app: Application = express()
 import cors from 'cors'
+import express, { Application, Request, Response } from 'express'
+import { globalErrorHanlder } from './app/middlewares/globalErrorHandler'
 import usersRoutes from './app/modules/users/users.route'
+const app: Application = express()
 // middleware
 app.use(cors())
 
@@ -15,6 +16,11 @@ app.use('/api/v1/users', usersRoutes)
 //testing
 app.get('/', (req: Request, res: Response) => {
   res.send('Server is running successfully!')
+  // throw new ApiError(400, 'baler error khaite khaite jibon gelo!!')
+  // next('wow this is great error!!!')
 })
+
+// global error handler
+app.use(globalErrorHanlder)
 
 export default app

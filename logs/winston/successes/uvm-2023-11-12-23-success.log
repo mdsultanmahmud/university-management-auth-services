@@ -1,0 +1,132 @@
+{
+  message: 'Database connected',
+  level: 'info',
+  label: 'University Management App',
+  timestamp: '2023-11-12T17:01:33.621Z'
+}
+{
+  message: 'Application is listening on port 5000',
+  level: 'info',
+  label: 'University Management App',
+  timestamp: '2023-11-12T17:01:33.632Z'
+}
+{
+  message: 'Database connected',
+  level: 'info',
+  label: 'University Management App',
+  timestamp: '2023-11-12T17:02:01.298Z'
+}
+{
+  message: 'Application is listening on port 5000',
+  level: 'info',
+  label: 'University Management App',
+  timestamp: '2023-11-12T17:02:01.310Z'
+}
+{
+  message: 'Database connected',
+  level: 'info',
+  label: 'University Management App',
+  timestamp: '2023-11-12T17:02:18.293Z'
+}
+{
+  message: 'Application is listening on port 5000',
+  level: 'info',
+  label: 'University Management App',
+  timestamp: '2023-11-12T17:02:18.318Z'
+}
+{
+  message: 'Database connected',
+  level: 'info',
+  label: 'University Management App',
+  timestamp: '2023-11-12T17:05:16.932Z'
+}
+{
+  message: 'Application is listening on port 5000',
+  level: 'info',
+  label: 'University Management App',
+  timestamp: '2023-11-12T17:05:16.943Z'
+}
+{
+  message: 'Database connected',
+  level: 'info',
+  label: 'University Management App',
+  timestamp: '2023-11-12T17:08:12.479Z'
+}
+{
+  message: 'Application is listening on port 5000',
+  level: 'info',
+  label: 'University Management App',
+  timestamp: '2023-11-12T17:08:12.493Z'
+}
+{
+  message: 'Database connected',
+  level: 'info',
+  label: 'University Management App',
+  timestamp: '2023-11-12T17:12:25.802Z'
+}
+{
+  message: 'Application is listening on port 5000',
+  level: 'info',
+  label: 'University Management App',
+  timestamp: '2023-11-12T17:12:25.837Z'
+}
+{
+  message: 'Database connected',
+  level: 'info',
+  label: 'University Management App',
+  timestamp: '2023-11-12T17:12:42.420Z'
+}
+{
+  message: 'Application is listening on port 5000',
+  level: 'info',
+  label: 'University Management App',
+  timestamp: '2023-11-12T17:12:42.433Z'
+}
+{
+  message: 'Database connected',
+  level: 'info',
+  label: 'University Management App',
+  timestamp: '2023-11-12T17:12:48.910Z'
+}
+{
+  message: 'Application is listening on port 5000',
+  level: 'info',
+  label: 'University Management App',
+  timestamp: '2023-11-12T17:12:48.945Z'
+}
+{
+  message: 'Database connected',
+  level: 'info',
+  label: 'University Management App',
+  timestamp: '2023-11-12T17:16:13.105Z'
+}
+{
+  message: 'Application is listening on port 5000',
+  level: 'info',
+  label: 'University Management App',
+  timestamp: '2023-11-12T17:16:13.118Z'
+}
+{
+  message: 'Database connected',
+  level: 'info',
+  label: 'University Management App',
+  timestamp: '2023-11-12T17:23:06.883Z'
+}
+{
+  message: 'Application is listening on port 5000',
+  level: 'info',
+  label: 'University Management App',
+  timestamp: '2023-11-12T17:23:06.901Z'
+}
+{
+  message: 'Database connected',
+  level: 'info',
+  label: 'University Management App',
+  timestamp: '2023-11-12T17:23:30.477Z'
+}
+{
+  message: 'Application is listening on port 5000',
+  level: 'info',
+  label: 'University Management App',
+  timestamp: '2023-11-12T17:23:30.490Z'
+}

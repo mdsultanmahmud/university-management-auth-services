@@ -1,0 +1,6 @@
+{
+  message: 'Failed to connect database',
+  level: 'error',
+  label: 'University Management App',
+  timestamp: '2023-11-14T11:04:33.747Z'
+}
