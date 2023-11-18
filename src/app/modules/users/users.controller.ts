@@ -1,8 +1,28 @@
-import { Request, Response } from 'express'
-import { createUserDB } from './users.service'
+import { RequestHandler } from 'express'
+import { createUserDB, getAllUsersDB } from './users.service'
+
+// get all users
+export const getAllUsers: RequestHandler = async (req, res, next) => {
+  try {
+    const users = await getAllUsersDB()
+    if (!users) {
+      res.status(400).send({
+        succress: false,
+        message: 'Users is not found!',
+      })
+    }
+    res.status(200).send({
+      succress: true,
+      message: 'all users!!',
+      data: users,
+    })
+  } catch (error) {
+    next(error)
+  }
+}
 
 // create user
-export const createUser = async (req: Request, res: Response) => {
+export const createUser: RequestHandler = async (req, res, next) => {
   try {
     const user = req.body
     const createdUser = await createUserDB(user)
@@ -12,9 +32,6 @@ export const createUser = async (req: Request, res: Response) => {
       data: createdUser,
     })
   } catch (error) {
-    res.status(400).send({
-      success: false,
-      message: 'User is not created!',
-    })
+    next(error)
   }
 }
