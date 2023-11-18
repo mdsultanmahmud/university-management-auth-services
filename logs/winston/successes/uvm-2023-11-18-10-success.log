@@ -106,3 +106,15 @@
   label: 'University Management App',
   timestamp: '2023-11-18T04:51:21.337Z'
 }
+{
+  message: 'Database connected',
+  level: 'info',
+  label: 'University Management App',
+  timestamp: '2023-11-18T04:55:56.074Z'
+}
+{
+  message: 'Application is listening on port 5000',
+  level: 'info',
+  label: 'University Management App',
+  timestamp: '2023-11-18T04:55:56.085Z'
+}
