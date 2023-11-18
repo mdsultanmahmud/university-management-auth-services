@@ -48,7 +48,7 @@ export const errorLogger = createLogger({
         process.cwd(),
         'logs',
         'winston',
-        'error',
+        'errors',
         'uvm-%DATE%-error.log',
       ),
       datePattern: 'YYYY-MM-DD-HH',

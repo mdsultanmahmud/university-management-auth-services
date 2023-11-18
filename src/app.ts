@@ -15,6 +15,7 @@ app.use('/api/v1/users', usersRoutes)
 
 //testing
 app.get('/', (req: Request, res: Response) => {
+  // Promise.reject(new Error('Unhandled Promise Rejection'))
   res.send('Server is running successfully!')
   // throw new ApiError(400, 'baler error khaite khaite jibon gelo!!')
   // next('wow this is great error!!!')
