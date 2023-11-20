@@ -12,7 +12,7 @@ export const globalErrorHanlder: ErrorRequestHandler = (
   next,
 ) => {
   if (config.env === 'development') {
-    console.log('global errors', error)
+    errorLogger.error('global errors', error)
   } else {
     errorLogger.error('global error handler', error)
   }
